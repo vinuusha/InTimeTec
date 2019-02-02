@@ -24,19 +24,19 @@ public class Tesla {
 				case 1:
 					choose();
 					VehicleAbstract vb = new Car();
-					vb.writeFile("C:/Users/vinusha.r/Desktop/JavaPractice/collection1.csv");
+					vb.writeFile("C:/Users/vinusha.r/Desktop/JavaPractice/collection.csv");
 					break;
 				case 2:
 					VehicleAbstract vb1 = new Car();
 					vb1.delete();
 					vb1.show();
-					vb1.writeFile("C:/Users/vinusha.r/Desktop/JavaPractice/collection1.csv");
+					vb1.writeFile("C:/Users/vinusha.r/Desktop/JavaPractice/collection.csv");
 					break;
 				case 3:
 					VehicleAbstract vb2 = new Car();
 					vb2.update();
 					vb2.show();
-					vb2.writeFile("C:/Users/vinusha.r/Desktop/JavaPractice/collection1.csv");
+					vb2.writeFile("C:/Users/vinusha.r/Desktop/JavaPractice/collection.csv");
 					break;
 				case 4:
 					VehicleAbstract vb3 = new Car();
